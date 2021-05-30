@@ -1,0 +1,16 @@
+.ordered{
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+}
+.ordered_id{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.ordered_total{
+    font-weight: 500;
+    text-align: right;
+}

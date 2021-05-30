@@ -1,0 +1,53 @@
+.payment{
+    background-color:white;
+
+}
+.payment_container> h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color:rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+}
+.payment_container> h1> a{
+    text-decoration: none;
+}
+
+.payment_section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment_title{
+    flex:0.2;
+}
+.payment_address, .payment_items, .payment_details{
+    flex: 0.8;
+}
+
+#payment-form{
+    width: 30vw;
+    align-self: center;
+    box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
+        0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
+    padding: 40px;
+}
+
+.payment_Button{
+    background: #f0c14b;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    transition: all 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+    width: 100%;
+}
